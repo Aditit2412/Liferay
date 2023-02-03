@@ -1,0 +1,4 @@
+Bundle-Name: empaneled-web
+Bundle-SymbolicName: com.empaneledweb
+Bundle-Version: 1.0.0
+Export-Package: com.empaneledweb.constants
