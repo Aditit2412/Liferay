@@ -1,0 +1,1213 @@
+/******************** COMMON CSS **********************/
+@font-face {
+    font-family: 'LeasePlanRegular';
+    src: url('../fonts/LeasePlan-Regular.eot'),
+        /* IE9 Compat Modes */
+        url('../fonts/LeasePlan-Regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/LeasePlan-Regular.otf') format("opentype"),
+        /* General Browsers */
+        url('../fonts/LeasePlan-Regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/LeasePlan-Regular.woff') format('woff')
+        /* Pretty Modern Browsers */
+}
+
+@font-face {
+    font-family: 'LeasePlanLight';
+    src: url('../fonts/LeasePlan-Light.eot'),
+        /* IE9 Compat Modes */
+        url('../fonts/LeasePlan-Light.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/LeasePlan-Light.otf') format("opentype"),
+        /* General Browsers */
+        url('../fonts/LeasePlan-Light.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/LeasePlan-Light.woff') format('woff')
+        /* Pretty Modern Browsers */
+}
+
+@font-face {
+    font-family: 'LeasePlanBold';
+    src: url('../fonts/LeasePlan-Bold.eot'),
+        /* IE9 Compat Modes */
+        url('../fonts/LeasePlan-Bold.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/LeasePlan-Bold.otf') format("opentype"),
+        /* General Browsers */
+        url('../fonts/LeasePlan-Bold.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/LeasePlan-Bold.woff') format('woff')
+        /* Pretty Modern Browsers */
+}
+
+
+
+
+
+
+
+body {
+    font-family: LeasePlanRegular, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #545656;
+}
+
+.heading1,
+.heading2,
+.heading3,
+.heading4,
+.heading5,
+.heading6 {
+    color: #004a5d;
+    line-height: normal;
+}
+
+.heading1 {
+    font-size: 48px;
+}
+
+.heading2 {
+    font-size: 36px;
+}
+
+.heading3 {
+    font-size: 32px;
+}
+
+.heading4 {
+    font-size: 28px;
+}
+
+.heading5 {
+    font-size: 24px;
+}
+
+.heading6 {
+    font-size: 20px;
+}
+
+.heading1bold,
+.heading2bold,
+.heading3bold,
+.heading4bold,
+.heading5bold,
+.heading6bold {
+    font-family: LeasePlanBold, Arial, Helvetica, sans-serif;
+}
+
+.text-primaryy {
+    color: #EE4C14;
+}
+
+.text-secondaryy {
+    color: #545656;
+}
+
+.anchor,
+.anchor:hover {
+    color: #EE4C14;
+    text-decoration: none;
+}
+
+.primary-button,
+.primary-button:hover,
+.primary-button:focus {
+    background-color: #EE4C14;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #ED8B00, #EE4C14);
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 25px;
+    padding: 15px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-family: LeasePlanBold, Arial, Helvetica, sans-serif;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+}
+
+.primary-button-oulined,
+.primary-button-oulined:hover,
+.primary-button-oulined:focus {
+    background-color: #ffffff;
+    border: 2px solid #EE4C14;
+    color: #EE4C14;
+    text-transform: uppercase;
+    border-radius: 25px;
+    padding: 15px 60px;
+    font-size: 12px;
+    font-family: LeasePlanBold, Arial, Helvetica, sans-serif;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.no-margin-padding {
+    margin: 0;
+    padding: 0;
+}
+
+.icon-common {
+    width: 120px;
+    height: 120px;
+}
+
+.icon-common-small {
+    width: 40px;
+    height: 40px;
+}
+
+.form-control {
+    font-size: 14px;
+    height: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 1px solid #dadada;
+    border-radius: 0;
+}
+
+.bg-gray {
+    background-color: #f8f8f8;
+}
+
+.bg-gray .heading5 {
+    color: #545656;
+}
+
+.dropdown-toggle::after {
+    border: 0;
+    background-image: url(../images/sp-images/dropdown-arrow.svg);
+    width: 9px;
+    height: 5px;
+    background-repeat: no-repeat;
+    top: 2px;
+    position: relative;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(../images/sp-images/dropdown-arrow.svg);
+    width: 9px;
+    height: 5px;
+    background-repeat: no-repeat;
+    top: 2px;
+    position: relative;
+    background-position: 95% center;
+}
+
+/* select.white {
+    background-image: url(../images/sp-images/dropdown-arrow-white.svg);
+} */
+
+@media screen and (max-width: 767px) {
+    .heading1 {
+        font-size: 32px;
+    }
+
+    .heading2 {
+        font-size: 28px;
+    }
+
+    .heading3 {
+        font-size: 24px;
+    }
+
+    .heading4 {
+        font-size: 20px;
+    }
+
+    .heading5 {
+        font-size: 16px;
+    }
+
+    .heading6 {
+        font-size: 14px;
+    }
+
+    .form-control {
+        height: 40px;
+    }
+
+    .hideonly-mobile {
+        display: none !important;
+    }
+
+    .dropdown-toggle.white::after {
+        background-image: url(../images/sp-images/dropdown-arrow-white.svg);
+    }
+}
+
+/******************** HOME PAGE **********************/
+/* header start */
+header {
+    min-height: 140px;
+}
+
+header hr {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: -1;
+}
+
+header .leaseplan-logo,
+.leaseplan-logo {
+    max-height: 120px;
+}
+
+header .nav-section ul {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+header .nav-section ul li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+header .nav-section.bottom ul li a {
+    font-weight: bold !important;
+}
+
+.count {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    border-radius: 100%;
+    color: #EE4C14;
+    border: 1px solid #EE4C14;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+header .nav-section ul li:first-child {
+    padding-left: 0;
+}
+
+header .nav-section ul li a,
+header .nav-section ul li a:hover,
+header .nav-section ul li a:focus {
+    color: #545656;
+    text-decoration: none;
+    /* font-weight: bold; */
+    box-shadow: none;
+}
+
+header .nav-section ul li .dropdown .btn {
+    font-size: 14px;
+    /* font-weight: bold; */
+    margin: 0;
+    padding: 0;
+}
+
+header .nav-section ul li .dropdown .dropdown-menu {
+    border: 0;
+}
+
+header .nav-section ul li img {
+    max-height: 20px;
+}
+
+header .nav-section ul li .dropdown .dropdown-menu .dropdown-item {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+header .nav-section.top {
+    margin-top: 25px;
+}
+
+/* header .nav-section.top ul li a,
+header .nav-section.top ul li a:hover,
+header .nav-section.top ul li a:focus,
+header .nav-section.top ul li .dropdown .btn {
+    font-weight: normal;
+} */
+
+header .nav-section.top ul li .dropdown .dropdown-menu {
+    left: -40px !important;
+}
+
+header .nav-section.top ul li .dropdown .dropdown-menu.city {
+    left: 0 !important;
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header {
+        min-height: auto;
+        padding: 5px 0;
+    }
+
+    header hr {
+        display: none
+    }
+
+    header .nav-section.top {
+        margin-top: 10px;
+    }
+
+    header .leaseplan-logo,
+    .leaseplan-logo {
+        max-height: 100%;
+        width: 100%;
+        margin-top: -15px;
+        margin-left: -30px;
+    }
+
+    header .nav-section ul li {
+        padding-left: 15px;
+    }
+
+    header .nav-section.bottom ul li a {
+        font-weight: normal !important;
+    }
+
+    header .mn {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.7);
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 999999;
+        display: none;
+    }
+
+    header .mn.show-mn {
+        display: block;
+        transition: all 1s ease-in-out;
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+    }
+
+    header .mobile-navigation {
+        position: fixed;
+        background-color: #fff;
+        width: 75%;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 999999;
+        overflow: auto;
+    }
+
+    header .mobile-navigation .nav-section {
+        width: 100%;
+        margin-left: auto;
+        margin-top: 0;
+    }
+
+    header .mobile-navigation .nav-section ul li {
+        display: block;
+        padding-left: 0;
+        padding: 10px;
+    }
+
+    header .mobile-navigation .nav-section.top ul li .dropdown.show .dropdown-menu,
+    header .mobile-navigation .nav-section.bottom ul li .dropdown.show .dropdown-menu {
+        display: none;
+        background-color: transparent;
+        position: relative !important;
+        width: 100%;
+        left: 0 !important;
+        right: 0;
+    }
+
+    header .mobile-navigation .nav-section.top ul li .dropdown .dropdown-menu,
+    header .mobile-navigation .nav-section.bottom ul li .dropdown .dropdown-menu {
+        display: block;
+        background-color: transparent;
+        position: relative !important;
+        width: 100%;
+        left: 0 !important;
+        right: 0;
+    }
+
+    header .mobile-navigation .nav-section.top ul li.hide {
+        display: none;
+    }
+
+    header .mobile-navigation .nav-section.top ul li {
+        background-color: #F15522;
+    }
+
+    header .mobile-navigation .nav-section.top ul li a {
+        color: #fff;
+    }
+
+    header .nav-section ul li .dropdown .dropdown-menu .dropdown-item {
+        color: #545656;
+        padding: 10px;
+    }
+
+    /* header .nav-section.top ul li a,
+    header .nav-section.top ul li a:hover,
+    header .nav-section.top ul li a:focus,
+    header .nav-section.top ul li .dropdown .btn {
+        font-weight: bold;
+    } */
+
+    header .nav-section ul li img {
+        max-height: 25px;
+    }
+
+    /* header .mobile-navigation .nav-section.top ul li {
+        display: none;
+    }
+    header .mobile-navigation .nav-section.top ul li:last-child {
+        display: block;
+    } */
+}
+
+/* header end */
+/* announcements sub container start */
+.sub-content-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    background-color: #ffffff;
+    z-index: 999999;
+    min-height: 100px;
+    padding-bottom: 20px;
+}
+
+.sub-content-container .close-black {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.sub-content-container-inner {
+    padding: 20px;
+}
+
+.sub-content-container .view-all {
+    color: #f27b27;
+    text-decoration: underline;
+    font-family: LeasePlanBold, Arial, Helvetica, sans-serif;
+}
+
+.announcements .carousel {
+    height: 100%;
+}
+
+.announcements .carousel .carousel-control-prev,
+.announcements .carousel .carousel-control-next {
+    opacity: 1;
+    width: auto;
+    right: 0;
+    bottom: 0;
+    top: unset;
+    left: unset;
+}
+
+.announcements .carousel .carousel-control-prev {
+    right: 30px;
+}
+
+.announcements .carousel .carousel-control-next-icon {
+    background-image: url(../images/sp-images/arrows-circle-right.svg);
+    color: #f06400;
+    height: 20px;
+    width: 20px;
+}
+
+.announcements .carousel .carousel-control-prev-icon {
+    background-image: url(../images/sp-images/arrows-circle-left.svg);
+    color: #f06400;
+    height: 20px;
+    width: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .sub-content-container {
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 9999999;
+        height: 100%;
+        position: fixed;
+        overflow: auto;
+    }
+}
+
+/* announcements sub container end */
+/* banner start */
+.banner {
+    height: 625px;
+    position: relative;
+}
+
+.banner .carousel,
+.banner .carousel .carousel-inner,
+.banner .carousel .carousel-inner .carousel-item {
+    height: 100%;
+}
+
+.banner .carousel .carousel-inner .carousel-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.banner .carousel .carousel-inner .carousel-item::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.banner .carousel .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+.banner-content {
+    width: 40%;
+    float: right;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    z-index: 99999;
+    right: 10%;
+}
+
+.banner-proposal-content {
+    max-width: 375px;
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99999;
+    left: 10%;
+    margin-left: 15px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.banner-proposal-content label {
+    display: none;
+}
+
+.banner-proposal-content .price-input-inner {
+    width: 80px;
+}
+
+.banner-proposal-content .price-input-inner span {
+    float: left;
+}
+
+.banner-proposal-content .price-input-inner input {
+    width: 70px;
+}
+
+.slider {
+    height: 5px;
+    position: relative;
+    background: #e1e1e1;
+    border-radius: 5px;
+    border: 1px solid #545656;
+}
+
+.range-input {
+    position: relative;
+}
+
+.range-input input {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: -5px;
+    background: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background: #e1e1e1;
+    pointer-events: auto;
+    -webkit-appearance: none;
+    border: 1px solid #545656
+}
+
+input[type="range"]::-moz-range-thumb {
+    height: 17px;
+    width: 17px;
+    border: none;
+    border-radius: 50%;
+    background: #17a2b8;
+    pointer-events: auto;
+    -moz-appearance: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.input-min,
+.input-max {
+    border: 0;
+    outline: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .banner {
+        height: auto;
+    }
+
+    .banner-salaryplan-car {
+        background: url(../images/sp-images/banner-1.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .banner-proposal-content {
+        left: 15px;
+        right: 15px;
+        max-width: 100%;
+        width: 100%;
+        margin-left: 0;
+        top: unset;
+        bottom: 30px;
+        transform: none;
+        position: unset;
+        background-color: #0D4554;
+        border-radius: 0;
+    }
+
+    .banner-proposal-content p {
+        color: #fff;
+    }
+
+    .banner-proposal-content .price-input span {
+        color: #fff;
+    }
+
+    .banner-proposal-content .price-input input {
+        background-color: transparent;
+        color: #fff;
+    }
+
+    .banner-proposal-content button {
+        background-color: #fff;
+        background-image: none;
+        color: #0D4554;
+        width: 100%;
+    }
+
+    .banner-proposal-content a {
+        color: #fff;
+        text-decoration: underline;
+    }
+}
+
+/* banner end */
+/* my salary plan car start */
+.nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+}
+
+.nav-tabs .nav-link,
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+    background-color: #f5f5f5;
+    border: 0px solid #f5f5f5;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-weight: bold;
+    padding: 8px 40px;
+    color: #545656;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #004a5d;
+    border: 0px solid #004a5d;
+}
+
+@media screen and (max-width: 767px) {
+
+    .nav-tabs .nav-link,
+    .nav-tabs .nav-link:hover,
+    .nav-tabs .nav-link:focus {
+        border-top: 3px solid transparent;
+    }
+
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+        color: #004a5d;
+        background-color: transparent;
+        border: 0px solid #004a5d;
+        border-top: 3px solid #004a5d;
+    }
+}
+
+/* my salary plan car end */
+/* how leaseplan services will work */
+.how-leasing-services-work {
+    background-color: #ef6400;
+}
+
+/* how leaseplan services will work */
+/* recent proposals and your company car policy start */
+.recent-proposals ul {
+    padding-left: 20px;
+}
+
+.recent-proposals-output input[type="text"],
+.recent-proposals-output input[type="text"]:focus,
+.recent-proposals-output input[type="text"]:focus-within {
+outline: none;
+}
+
+
+
+/* recent proposals and your company car policy start */
+/* loan vs lease and test drive start */
+.test-drive-content {
+    color: #ffffff;
+    position: relative;
+}
+
+.test-drive-content::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.test-drive-content .inner {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 9999;
+    text-align: center;
+}
+
+/* loan vs lease and test drive end */
+
+/* cars slider like polular, top leased etc start */
+.cars-slider .wrapper {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.cars-slider .slick-track {
+    width: 100%;
+}
+
+.cars-slider .slick-initialized .slick-slide {
+    min-height: 100px;
+    width: 25%;
+    margin: 0 15px 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e7e7e7;
+}
+
+.cars-slider .slick-next,
+.cars-slider .slick-next:hover,
+.cars-slider .slick-prev,
+.cars-slider .slick-prev:hover {
+    padding: 5px;
+    box-shadow: 0px 0px 2px #101010;
+    z-index: 5;
+    color: #101010 !important;
+}
+
+.cars-slider .slick-prev {
+    left: 5px;
+    background: url(../images/sp-images/left-arrow.svg) !important;
+    background-size: 20px 20px !important;
+}
+
+.cars-slider .slick-next {
+    right: 5px;
+    background: url(../images/sp-images/right-arrow.svg) !important;
+    background-size: 20px 20px !important;
+}
+
+.cars-slider .slick-next:before,
+.cars-slider .slick-prev:before {
+    display: none;
+}
+
+.cars-slider.popular-cars {
+    background: url("../images/sp-images/sample-image.jpg");
+}
+
+.cars-slider .slick-dots {
+    display: none !important;
+}
+
+/* cars slider like polular, top leased etc end */
+.first-image-container,
+.second-images-container {
+    height: 600px;
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.image-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.image-container .inner {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 9999;
+    color: #ffffff;
+}
+
+.image-container .inner a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.image-container .inner a img {
+    width: 20px;
+}
+
+.second-images-container .top,
+.second-images-container .bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 48%;
+}
+
+.second-images-container .top {
+    top: 0;
+}
+
+.second-images-container .bottom {
+    bottom: 0;
+}
+
+/* footer start */
+footer {
+    background-color: #ef4b15;
+    padding: 100px 0 60px 0;
+    position: relative;
+    margin-top: 80px;
+}
+
+.main-heading {
+    margin-top: 20px;
+}
+
+.sub-topics {
+    margin-top: 20px;
+}
+
+.sub-topics a,
+.sub-topics p {
+    color: #ffffff;
+    line-height: 25px;
+    display: block;
+}
+
+.chat-and-logo {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    background-color: transparent;
+}
+
+.chat-and-logo .chat-icon {
+    width: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    footer {
+        padding: 0px 0 20px 0;
+        margin-top: 0;
+    }
+
+    footer .main-heading1,
+    footer .main-heading2,
+    footer .main-heading3,
+    footer .main-heading4 {
+        position: relative;
+        padding-left: 25px;
+    }
+
+    footer .main-heading1::before,
+    footer .main-heading2::before,
+    footer .main-heading3::before,
+    footer .main-heading4::before {
+        content: "+";
+        position: absolute;
+        color: #fff;
+        left: 0px;
+        font-size: 28px;
+        top: -12px;
+    }
+
+    footer .main-heading1-minus::before,
+    footer .main-heading2-minus::before,
+    footer .main-heading3-minus::before,
+    footer .main-heading4-minus::before {
+        content: "-";
+        position: absolute;
+        color: #fff;
+        left: 0px;
+        font-size: 28px;
+        top: -12px;
+    }
+
+    footer .main-heading p {
+        margin: 0;
+        padding: 0;
+    }
+
+    footer .main-heading1-container,
+    footer .main-heading2-container,
+    footer .main-heading3-container,
+    footer .main-heading4-container {
+        display: none;
+    }
+
+    footer .main-heading1-container.show,
+    footer .main-heading2-container.show,
+    footer .main-heading3-container.show,
+    footer .main-heading4-container.show {
+        display: block;
+    }
+
+    .border-bottom-only-mobile {
+        border-bottom: 1px solid #dadada;
+    }
+}
+
+/* footer end */
+/******************** REGISTER, LOGIN, ACTIVATION AND FORGOT PASSWORD PAGES **********************/
+.login {
+    height: 100vh;
+    position: relative;
+    overflow: auto;
+}
+
+.register {
+    height: 100%;
+}
+
+.login .bg-img {
+    height: 100%;
+    width: 100%;
+}
+
+.login-inner {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 20px 20px 20px;
+}
+
+.login-inner label {
+    display: none;
+}
+
+.login-inner .form-check label {
+    display: block;
+}
+
+.login-inner small,
+.login-inner a {
+    color: #EE4C14;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login-inner .logo-img {
+    position: absolute;
+    top: -42px;
+    left: 0;
+    right: 0;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+/******************** KNOW YOUR SAVINGS PAGE **********************/
+/* heading*/
+.know-your-savings .heading {
+    color: rgb(12, 70, 84);
+}
+
+/* Table */
+.know-your-savings .table {
+    box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
+}
+
+.know-your-savings .table td,
+.table thead th {
+    vertical-align: middle;
+    text-align: center;
+    height: 3.75rem;
+    padding: 0px;
+}
+
+.know-your-savings .table-striped>tbody>tr:nth-child(odd)>td,
+.know-your-savings .table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: rgb(237, 239, 238);
+}
+
+.know-your-savings .table thead th {
+    font-family: LeasePlanBold;
+    color: rgb(12, 70, 84);
+}
+
+.know-your-savings .table td:first-child {
+    border-right: 2px solid rgb(0, 0, 0, 0.15);
+    padding-left: 2rem;
+    text-align: left;
+}
+
+.know-your-savings .table tr:nth-last-child(-n+2) {
+    font-family: LeasePlanBold;
+    color: rgb(12, 70, 84);
+}
+
+.know-your-savings .table tr:not(:nth-last-child(-n+2)) {
+    color: rgb(84, 86, 85);
+}
+
+/*selector */
+.know-your-savings select,
+.know-your-savings input {
+    width: 110px;
+    margin: 0 auto;
+}
+
+/*saving over lease period*/
+.know-your-savings .saving {
+    color: rgb(12, 70, 84);
+    font-family: LeasePlanBold;
+    min-height: 3.75rem;
+    vertical-align: bottom !important;
+}
+
+/*Read more and Read less*/
+.know-your-savings [aria-expanded="false"]>.expanded,
+.know-your-savings [aria-expanded="true"]>.collapsed {
+    display: none;
+}
+
+.know-your-savings .collapsed,
+.know-your-savings .expanded {
+    color: rgb(240, 100, 0);
+}
+
+/******************** SWITCH TO LEASE **********************/
+.page-banner {
+    height: 550px;
+    position: relative;
+}
+
+.page-banner::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: '';
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.page-banner img {
+    height: 100%;
+    width: 100%;
+}
+
+.page-banner .page-banner-content {
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    color: #fff;
+    right: 0;
+}
+
+.switch-to-lease-2 {
+    background-color: #004a5d;
+    color: #fff;
+    line-height: 1.8;
+}
+
+@media screen and (max-width: 767px) {
+    .page-banner {
+        height: 350px;
+    }
+
+    .page-banner .page-banner-content {
+        bottom: 20px;
+    }
+}
